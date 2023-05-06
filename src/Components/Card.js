@@ -21,8 +21,8 @@ export default function Card({ details, image }) {
             <a href={details.unsplashAttributionLink}>Unsplash</a>
           </span>
         </p>
-        <br />
-        <a className="">Gift it</a>
+        <br />   
+        <a className="btn btn-primary">Gift it</a>
       </div>
     </div>
   );
